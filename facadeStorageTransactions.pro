@@ -29,5 +29,5 @@ OBJECTS_DIR = \""$$DESTDIR/.obj\""
 QMAKE_CXXFLAGS += -finput-charset="UTF-8"
 unix {
 QMAKE_CXXFLAGS += -Werror
-QMAKE_CXXFLAGS += -Wall
+QMAKE_CXXFLAGS += -Wall -fno-strict-aliasing
 }
